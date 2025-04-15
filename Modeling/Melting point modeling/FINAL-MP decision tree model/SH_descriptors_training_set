@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<x38_#ringatoms &le; 11.5<br/>gini = 0.452<br/>samples = 504<br/>value = [828, 435]<br/>class = Class 0>, fillcolor="#f3c3a1"] ;
+1 [label=<x24_QPPMDCK &le; 137.013<br/>gini = 0.295<br/>samples = 236<br/>value = [780, 171]<br/>class = Class 0>, fillcolor="#eb9d64"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 58<br/>value = [0, 58]<br/>class = Class 1>, fillcolor="#399de5"] ;
+1 -> 2 ;
+3 [label=<x17_QPlogPw &le; 7.993<br/>gini = 0.221<br/>samples = 178<br/>value = [780, 113]<br/>class = Class 0>, fillcolor="#e99356"] ;
+1 -> 3 ;
+4 [label=<x14_QPpolrz &le; 16.442<br/>gini = 0.128<br/>samples = 96<br/>value = [612, 45]<br/>class = Class 0>, fillcolor="#e78a48"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 8<br/>value = [0, 8]<br/>class = Class 1>, fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label=<gini = 0.108<br/>samples = 88<br/>value = [612, 37]<br/>class = Class 0>, fillcolor="#e78945"] ;
+4 -> 6 ;
+7 [label=<x20_CIQPlogS &le; -2.765<br/>gini = 0.41<br/>samples = 82<br/>value = [168, 68]<br/>class = Class 0>, fillcolor="#f0b489"] ;
+3 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 20<br/>value = [0, 20]<br/>class = Class 1>, fillcolor="#399de5"] ;
+7 -> 8 ;
+9 [label=<x38_#ringatoms &le; 7.5<br/>gini = 0.346<br/>samples = 62<br/>value = [168, 48]<br/>class = Class 0>, fillcolor="#eca572"] ;
+7 -> 9 ;
+10 [label=<gini = 0.274<br/>samples = 47<br/>value = [168, 33]<br/>class = Class 0>, fillcolor="#ea9a60"] ;
+9 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 15<br/>value = [0, 15]<br/>class = Class 1>, fillcolor="#399de5"] ;
+9 -> 11 ;
+12 [label=<x29_QPlogKhsa &le; 0.03<br/>gini = 0.26<br/>samples = 268<br/>value = [48, 264]<br/>class = Class 1>, fillcolor="#5dafea"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+13 [label=<gini = 0.0<br/>samples = 224<br/>value = [0, 224]<br/>class = Class 1>, fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label=<x4_FOSA &le; 145.52<br/>gini = 0.496<br/>samples = 44<br/>value = [48, 40]<br/>class = Class 0>, fillcolor="#fbeade"] ;
+12 -> 14 ;
+15 [label=<gini = 0.0<br/>samples = 32<br/>value = [0, 32]<br/>class = Class 1>, fillcolor="#399de5"] ;
+14 -> 15 ;
+16 [label=<gini = 0.245<br/>samples = 12<br/>value = [48, 8]<br/>class = Class 0>, fillcolor="#e9965a"] ;
+14 -> 16 ;
+}
