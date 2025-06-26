@@ -1,7 +1,7 @@
 # Discovery of novel deoxyfluorination reagents in collaboration with Genentech
 Code and datasets for clustering and modeling of sulfonyl fluorides 
 
-• Preprint on Chemrxiv
+• [Preprint](https://chemrxiv.org/engage/chemrxiv/article-details/6813c443927d1c2e66942f0f) on Chemrxiv
 
 # Reaction dataset availability
 Sulfonyl fluorides used in this study can be found at: https://descriptor-libraries.molssi.org/sulfonyl-fluorides/
